@@ -16,7 +16,7 @@ function login() {
 function studentGrade(){
     debugger
     score= objScore.value;
-    if (score >=90 && score<100) {
+    if (score >=90 && score<=100) {
         objGrade.innerText="Your Grade is A";
     } else if(score >=80 && score<90){
         objGrade.innerText="Your Grade is B";
