@@ -17,18 +17,22 @@ function studentGrade(){
     debugger
     score= objScore.value;
     if (score >=90 && score<=100) {
-        objGrade.innerText="Your Grade is A";
+        msg="Your Grade is A";
     } else if(score >=80 && score<90){
-        objGrade.innerText="Your Grade is B";
+        msg="Your Grade is B";
 
     } else if(score >=50 && score<80){
-        objGrade.innerText="Your Grade is C";
+        msg="Your Grade is C";
         // otherwise
     }else{
-        objGrade.innerText="Your Grade is F";
+        msg="Your Grade is F";
 
     }
+    return msg;
 
+}
+function show() {
+    objGrade.innerText=studentGrade();
 }
 
 
