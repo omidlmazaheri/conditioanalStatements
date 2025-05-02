@@ -1,12 +1,12 @@
 
-let objRedius, rediusValue, objResult ;
+let objRedius,  objResult ;
 objRedius= document.getElementById("redius");
 objResult=document.getElementById("result");
 
-
+// OMID: for readability
 function calculateArea(){
-    rediusValue=objRedius.value;
-   return  rediusValue **2 * Math.PI;
+   
+   return  objRedius.value **2 * Math.PI;
 }
  function showArea() {
     objResult.innerHTML=`the area is <b>${calculateArea()}</b>`;
