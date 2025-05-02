@@ -4,7 +4,7 @@ let objHeight=document.getElementById("height");
 let objResult=document.getElementById("result");
 let widthValue, heightValue,areaValue; result;
 
-
+OMID: a function with return value
 function calculateArea() {
     widthValue=objWidth.value;
     heightValue=objHeight.value;
